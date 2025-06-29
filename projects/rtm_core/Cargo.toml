@@ -9,7 +9,6 @@ rust-version.workspace = true
 crate-type = ["lib"]
 
 [dependencies]
-csv = { workspace = true }
 rust_decimal = { workspace = true }
 
 [dev-dependencies]

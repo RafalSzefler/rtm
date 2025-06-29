@@ -1,0 +1,15 @@
+[package]
+name = "rtm_cli"
+version = "0.1.0"
+edition.workspace = true
+authors.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+clap_derive = { workspace = true }
+clap = { workspace = true }
+rtm_core = { version = "0.1", path = "../rtm_core" }
+csv = { workspace = true }
+
+[dev-dependencies]
+rstest = { workspace = true }

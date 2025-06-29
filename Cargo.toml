@@ -1,0 +1,18 @@
+[workspace]
+members = [
+    "projects/rtm_core",
+    "projects/rtm_cli",
+]
+resolver = "3"
+
+[workspace.package]
+edition = "2024"
+authors = ["Rafal Szefler <rafael.szefler@gmail.com>"]
+rust-version = "1.85"
+
+[workspace.dependencies]
+rust_decimal = "1.37"
+rstest = "0.25"
+csv = "1.3"
+clap_derive = "4.5.40"
+clap = { version = "4.5.40", features = ["derive"] }
